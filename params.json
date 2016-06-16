@@ -1,0 +1,6 @@
+{
+  "name": "Clean-blog",
+  "tagline": "A clean, Bootstrap blog theme for Pico CMS",
+  "body": "# Clean-Blog\r\nA clean, Bootstrap blog theme for Pico CMS Designed by [Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/)\r\n\r\n##Installation\r\nDownload the clean-blog folder, upload it in the themes folder of your pico installation and change the following setting within your config.php:\r\n```sh\r\n $config['theme'] = 'clean-blog'; \r\n $config['pages_order_by'] = 'date';\r\n $config['pages_order'] = 'desc';\r\n```\r\n\r\nYou must add these custom settings in your config file \r\n```sh\r\n$config['author'] = 'Your Name';\r\n$config['facebook'] = 'https://www.facebook.com/YourPage';\r\n$config['twitter'] = '@username';\r\n```\r\nFor the pagination I use [Pico Pagination Plugin](https://github.com/rewdy/Pico-Pagination) so you must add this setting to config.php\r\n```sh\r\n$config['pagination_limit'] = 4;\r\n```\r\n\r\n###Home Page & Post Page\r\nCopy index.md & post.md from content-sample to your content folder and change the meta data\r\n\r\n###Demo : [link](http://blackrockdigital.github.io/startbootstrap-clean-blog/)\r\n\r\n###Screenshot\r\n![Clean-Blog-Screenshot](http://img15.hostingpics.net/pics/590149Sanstitre1.png)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
