@@ -1,24 +1,21 @@
-# Clean-Blog
-A clean, Bootstrap blog theme for Pico CMS Designed by [Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/)
+# Clean-Blog for Pico
+A clean, Bootstrap blog theme designed by [Start Bootstrap](http://startbootstrap.com/template-overviews/clean-blog/) and ported to Pico by BesrourMS and janskapa.
 
 ## Installation
-Download the clean-blog folder, upload it in the themes folder of your pico installation and change the following setting within your config.php:
+Download the repo folder, upload it in the themes folder of your Pico installation and change the following setting within your config.yml:
 ```sh
- $config['theme'] = 'clean-blog'; 
- $config['pages_order_by'] = 'date';
- $config['pages_order'] = 'desc';
+ theme: clean-blog
+ pages_order_by: date
+ pages_order: desc
 ```
 
-You must add these custom settings in your config file 
+DEPRACATED: You must add these custom settings in your config file 
 ```sh
 $config['author'] = 'Your Name';
 $config['facebook'] = 'https://www.facebook.com/YourPage';
 $config['twitter'] = '@username';
 ```
-For the pagination I use [Pico Pagination Plugin](https://github.com/rewdy/Pico-Pagination) so you must add this setting to config.php
-```sh
-$config['pagination_limit'] = 4;
-```
+For the pagination the theme uses [Pico Pagination Plugin](https://github.com/rewdy/Pico-Pagination) so you must install this plugin.
 
 ### Home Page & Post Page
 Copy index.md & post.md from content-sample to your content folder and change the meta data
@@ -26,4 +23,4 @@ Copy index.md & post.md from content-sample to your content folder and change th
 ### Demo : [link](http://blackrockdigital.github.io/startbootstrap-clean-blog/)
 
 ### Screenshot
-![Clean-Blog-Screenshot](http://img15.hostingpics.net/pics/590149Sanstitre1.png)
+
